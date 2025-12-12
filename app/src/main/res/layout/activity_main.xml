@@ -14,8 +14,9 @@
         android:text="Hello World!" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -34,12 +35,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
+
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonDalej"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dalej" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podziel się wynikiem" />
 
 </LinearLayout>
