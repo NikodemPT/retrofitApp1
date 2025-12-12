@@ -8,9 +8,9 @@ public class Pytanie {
     private String odpa;
     private String odpb;
     private String odpc;
-    private String poprawna;
+    private int poprawna;
 
-    public Pytanie(String trescPytania, String odpa, String odpb, String odpc, String poprawna) {
+    public Pytanie(String trescPytania, String odpa, String odpb, String odpc, int poprawna) {
         this.trescPytania = trescPytania;
         this.odpa = odpa;
         this.odpb = odpb;
@@ -50,11 +50,11 @@ public class Pytanie {
         this.odpc = odpc;
     }
 
-    public String getPoprawna() {
+    public int getPoprawna() {
         return poprawna;
     }
 
-    public void setPoprawna(String poprawna) {
+    public void setPoprawna(int poprawna) {
         this.poprawna = poprawna;
     }
 }
